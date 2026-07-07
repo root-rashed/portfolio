@@ -1,96 +1,80 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Rashedul Islam - Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rashedul islam - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
 </head>
 <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h2>Rashedul<span>islam</span></h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="certificates.html">Certificates</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
 
-  <header>
-    <h1>Rashedul Islam</h1>
-    <p>Software Engineer | AI & ML Researcher | Cybersecurity Enthusiast</p>
-  </header>
-  <nav>
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
-  </nav>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Hi, I'm <span class="highlight">Rashedul islam</span></h1>
+                    <h2 class="typed-text">Programmer & Tech Enthusiast</h2>
+                    <p>I'm open to: Remote jobs, AI/ML work, Cybersecurity work, and Open-Source collaborations.</p>
+                    <p class="hero-description">
+                        Third-year Computer Science and Engineering student with a strong passion for 
+                        competitive programming and algorithmic problem-solving. I love building secure and intelligent solutions, and I mix code, coffee, and creativity every day. I'm currently learning backend frameworks, deep learning, network security, and cloud computing.
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>
-      Hi, I'm Rashedul Islam. I'm based in Dhaka, Bangladesh.
-      I love building secure and intelligent solutions, and I mix code, coffee,
-      and creativity every day. I'm currently learning backend frameworks,
-      deep learning, network security, and cloud computing.
-    </p>
-    <p>I'm open to: <b>Remote jobs</b>, AI/ML work, Cybersecurity work, and Open-Source collaborations.</p>
-  </section>
 
-  <section id="skills">
-    <h2>Skills</h2>
-    <ul>
-      <li><b>Languages:</b> C, C++, Python, Java, HTML, CSS, JavaScript, PHP</li>
-      <li><b>Web:</b> React, Node.js, Django, Bootstrap, Tailwind</li>
-      <li><b>Backend:</b> Spring Boot, Hibernate, Maven</li>
-      <li><b>AI / ML:</b> Numpy, Pandas, Matplotlib, TensorFlow, PyTorch, Scikit-learn, Anaconda</li>
-      <li><b>Databases:</b> MySQL, MongoDB, PostgreSQL</li>
-      <li><b>Cloud & DevOps:</b> AWS, Docker, Kubernetes, Git, Linux</li>
-    </ul>
-  </section>
+                    <div class="hero-buttons">
+                        <a href="projects.html" class="btn btn-primary">View Projects</a>
+                        <a href="RASHEDUL_ISLAM.pdf" download class="btn btn-secondary">Download CV</a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/root-rashed/" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/root-rashed" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.facebook.com/root.rashed" target="_blank">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="images/mypic.jpg" alt="Rashedul islam">
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <section id="projects">
-    <h2>Featured Projects</h2>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Rashedul islam. All Rights Reserved.</p>
+        </div>
+    </footer>
 
-    <div class="project-card">
-      <h3>AgriLink - Agricultural Marketplace System</h3>
-      <p>A full-stack agricultural marketplace connecting farmers, buyers, and suppliers.</p>
-      <p>Tech: Java, JavaFX, MySQL</p>
-      <a href="https://github.com/root-rashed/AgriLink-Agricultural-Marketplace-System" target="_blank">View on GitHub</a>
-    </div>
-
-    <div class="project-card">
-      <h3>API Tester and Request Logger</h3>
-      <p>A lightweight, Postman-inspired API testing tool. Test REST endpoints, log requests, and save favorites, right from the browser.</p>
-      <p>Tech: PHP, Vanilla JS, MySQL, XAMPP</p>
-      <a href="https://github.com/root-rashed/API-Tester-and-Request-Logger" target="_blank">View on GitHub</a>
-    </div>
-
-    <div class="project-card">
-      <h3>Real-time Weather App</h3>
-      <p>A live weather data app with a simple interface, using public weather APIs.</p>
-      <p>Tech: Python, API</p>
-      <a href="https://github.com/root-rashed/Real-time-Weather-App" target="_blank">View on GitHub</a>
-    </div>
-
-    <div class="project-card">
-      <h3>Data Structures & Algorithms - Problem Solving</h3>
-      <p>Daily competitive programming practice from Codeforces, LeetCode, and more.</p>
-      <p>Tech: C, C++, DSA, Algorithms</p>
-      <a href="https://github.com/root-rashed/problem-solving-with-c-and-cpp" target="_blank">View on GitHub</a>
-    </div>
-  </section>
-
-  <section id="contact">
-    <h2>Contact Me</h2>
-    <p>Email: <a href="mailto:rashedulislam.shajol@gmail.com">rashedulislam.shajol@gmail.com</a></p>
-    <p>
-      <a href="https://github.com/root-rashed" target="_blank">GitHub</a> |
-      <a href="https://www.linkedin.com/in/root-rashed" target="_blank">LinkedIn</a> |
-      <a href="https://www.kaggle.com/rashedulislam011" target="_blank">Kaggle</a> |
-      <a href="https://tryhackme.com/p/whonix007" target="_blank">TryHackMe</a>
-    </p>
-
-    <button id="hireBtn">Say Hi 👋</button>
-    <p id="hireMsg"></p>
-  </section>
-
-  <footer>
-    <p id="year"></p>
-  </footer>
-
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
