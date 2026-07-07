@@ -21,6 +21,9 @@ body {
     line-height: 1.6;
     color: var(--text-color);
     background: var(--light-color);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .container {
@@ -781,6 +784,15 @@ img {
     box-shadow: var(--shadow);
     transition: all 0.3s ease;
     position: relative;
+}
+
+footer {
+    background: var(--dark-color);
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+
+    margin-top: auto;
 }
 
 .testimonial-card:hover {
